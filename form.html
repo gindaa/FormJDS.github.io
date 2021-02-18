@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title> JDS Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+            JDS Form
+        </div>
+            <div class="form">
+                <div class="input_field">
+                    <label>Nama</label>
+                    <input type="text" class="input" name="nama">
+                </div>
+                <div class="input_field">
+                    <label>NIK</label>
+                    <input type="number" class="input" name="NIK">
+                </div>
+                <div class="input_field">
+                    <label>No KK</label>
+                    <input type="number" class="input" name="no KK">
+                </div>
+                <div class="input_field">
+                    <label for="file"> Unggah Foto KTP </label>
+                    <input type="file" name="Foto KTP" placeholder="Unggah Foto Kartu Tanda Penduduk">
+                </div>
+                <div class="input_field">
+                    <label for="file"> Unggah Foto KK </label>
+                    <input type="file" name="Foto KK" placeholder="Unggah Foto Kartu Keluarga">
+                </div>
+                <div class="input_field">
+                    <label>Umur</label>
+                    <input type="number" class="input" name="Umur" min="25">
+                </div>
+                <div class="input_field">
+                    <label>Jenis Kelamin </label>
+                    <select name="jenis kenalamin">
+                        <option value="laki"> Laki-Laki </option>
+                        <option value="perempuan"> Perempuan </option>
+                    </select>
+                </div>
+                <div class="input_field">
+                    <label>Alamat</label>
+                    <input type="text" class="input" name="alamat" maxlength="255">
+                </div>
+                <div class="input_field">
+                    <label>Nomor RT</label>
+                    <input type="text" class="input" name="nomer RT">
+                </div>
+                <div class="input_field">
+                    <label>Nomor RW</label>
+                    <input type="text" class="input" name="nomer RW">
+                </div>
+                <div class="input_field">
+                    <label>Gaji Sebelum Pandemi</label>
+                    <input type="number" class="input" name="Gaji Sebelum">
+                </div>
+                <div class="input_field">
+                    <label>Gaji Setelah Pandemi</label>
+                    <input type="number" class="input" name="Gaji Setelah">
+                </div>
+            <div class="input_field">
+                <label>Alasan Butuh Bantuan </label>
+                <div class="custom_select">
+                <select>
+                    <option value="null"> Pilihan alasan </option>
+                    <option value="kehilangan pekerjaan"> Kehilangan pekerjaan </option>
+                    <option value="Terpapar Covid"> Kepala keluarga terdampak atau korban Covid </option>
+                    <option value="Fakir"> Tergolong fakir semenjak sebelum Covid </option>
+                    <option value="Lainnya"> Lainnya.. </option>
+                </select>
+                </div>
+                </div>
+                
+            </div>
+            <button type="submit" name="submit"> Kirim </button>
+        </div>
+    </div>
+</div>
+</div>
+    
+</body>
+</html>
